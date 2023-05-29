@@ -1,0 +1,22 @@
+{
+  "name": "visionv2/vision",
+  "description": "Project for the vision framework",
+  "type": "project",
+  "license": "MIT",
+  
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Noah Wilderom",
+      "email": "wilderomnoah@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "visionv2/framework": "dev-master"
+  }
+}
